@@ -25,8 +25,12 @@ $("#deleteButton2").click(function(){
     setTimeout(detectTA2, 10);
 });
 
-$('#textarea1').on('keydown', function(event) {
+$('#textarea1').bind('input propertychange', function() {
     setTimeout(detectTA1, 20);
+});
+
+$('#textarea2').bind('input propertychange', function() {
+    setTimeout(detectTA2, 20);
 });
 
 function detectTA1(){
