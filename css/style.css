@@ -1,0 +1,211 @@
+* {
+	margin:0;
+	padding: 0;
+}
+
+input, button, submit { border:none; } 
+button:focus {outline:0;}
+
+.vFull {
+	height: 100vh;
+	overflow: hidden;
+}
+
+.pvFull {
+	height: 100%;
+}
+
+.v45 {
+	height: 45vh;
+}
+
+.wFull {
+	width: 100%;
+}
+
+.bg-flat1 {
+	background-color: #2980b9;
+}
+
+.bg-flat2 {
+	background-color: #3498db;
+}
+
+.relative {
+	position: relative;
+}
+
+.absolute {
+	position: absolute;
+	width: 100%;
+}
+
+.addNew {
+	transition: .3s ease;
+	color: #212529;
+	cursor: pointer;
+}
+
+.addNew:hover {
+	color: #424b54;
+}
+
+.NoStyledInput{
+	background-color:rgba(0,0,0,.3) !important;
+   	border:none !important;
+   	text-align: center;
+}
+
+.NoStyledInput, select, textarea{
+   	color: white;
+}
+
+.NoStyledInput::placeholder{
+   	color: #ccc;
+}
+
+.NoStyledTextArea{
+	background-color:rgba(255,255,255,.1) !important;
+   	border:none !important;
+   	text-align: justify;
+   	color: white;
+}
+
+.NoStyledTextArea, select, textarea{
+   	color: white;
+}
+
+.NoStyledTextArea::placeholder{
+   	color: white;
+}
+
+.addBottom {
+	transition: .3s ease;
+	color: #212529;
+	cursor: pointer;
+}
+
+.deleteBottom {
+	transition: .3s ease;
+	color: #212529;
+	cursor: pointer;
+}
+
+.deleteBottom2 {
+	transition: .3s ease;
+	color: #212529;
+	cursor: pointer;
+}
+
+.addBottom:hover {
+	color: #44bd32;
+	font-size: 1.25em;
+}
+
+.deleteBottom:hover {
+	color: #e74c3c;
+	font-size: 1.25em;
+}
+
+.deleteBottom2:hover {
+	color: #e74c3c;
+	font-size: 1em;
+}
+
+body {
+	background-color: #282835;
+}
+
+.form-control:focus {
+  border-color: #00FF00;
+  box-shadow: inset 0 0px 10px rgba(0, 0, 0, 1), 0 0 45px rgba(200, 200, 200, 0.05);
+}
+
+.textarea1{
+	position: relative;
+}
+
+.textarea2{
+	position: relative;
+}
+
+.textarea1 textarea{
+  	z-index: 1;
+  	font-size: 13px;
+}
+
+.textarea2 textarea{
+  	z-index: 1;
+  	font-size: 13px;
+}
+
+.textarea1 button {
+	position: absolute;
+  	z-index: 5;
+  	background-color: transparent;
+	cursor: pointer;
+}
+
+#injectButton{
+	top: 0;
+  	right: 0;
+  	width: 30px;
+  	height: 30px;
+}
+
+#deleteButton{
+	bottom: 0;
+  	right: 0;
+  	width: 30px;
+  	height: 30px;
+}
+
+.textarea2 span {
+	position: absolute;
+	top: 0;
+  	right: 0;
+  	width: 30px;
+  	height: 30px;
+  	z-index: 5;
+  	background-color: transparent;
+	cursor: pointer;
+}
+
+.textarea2 button {
+	position: absolute;
+	bottom: 0;
+  	right: 0;
+  	width: 30px;
+  	height: 30px;
+  	z-index: 5;
+  	background-color: transparent;
+	cursor: pointer;
+}
+
+.txtshadow {
+	transition: .13s ease-in-out;
+}
+
+.txtshadow:hover{
+	color: #EA2027;
+	/*box-shadow: 0px 0px 10px 0px rgba(200, 200, 200, 0.46);*/
+}
+
+.shaded{
+	background-color: rgba(0,0,0,0.4);
+	border-radius: 50px;
+	height:5px;
+	cursor: row-resize;
+}
+
+.logo{
+	position: absolute;
+	top: 0;
+	left: 0;
+	cursor:pointer;
+	z-index:10;
+}
+
+.logo:hover{
+  	filter: drop-shadow(0 0 10px rgba(255,255,255,0.25)) url(.logo);
+}

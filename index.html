@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+		<title>Debugger</title>
+		<link rel="shortcut icon" type="image/ico" href="src/favicon.ico"/>
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/style.css">
+		<script src="js/jquery-3.2.1.min.js"></script>
+		<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+	</head>
+	<body>
+
+		<div class="container-fluid vFull">
+			<div class="row justify-content-center vFull">
+				<img src="src/logo32.png" class="logo mx-2 my-2" alt="Debugger" href="#">
+				<div class="col-10 mb-1 mt-4 mh-100">
+					<form>
+						<div class="input-group textarea1" style="height: 45vh;">
+						    <textarea class="form-control" id="textarea1" rows="100%" fixed style="resize:none; background-color: rgba(0,0,0,0.4); border: black; color:white; font-family: 'Consolas';" spellcheck="false"></textarea>
+						    <button type="button" class="mx-2 my-2" style="color:white;" id="injectButton"><i class="fas fa-lg fa-syringe txtshadow"></i></button>
+						    <button type="button" class="mx-2 my-2" style="color:white;" id="deleteButton"><i class="fas fa-lg fa-trash txtshadow"></i></button>
+					    </div>
+					</form>
+				</div>
+				<div class="col-10 mb-1 shaded" id="resizer"></div>
+				<div class="col-10 mt-1 mb-4 pv50">
+					<form>
+						<div class="input-group textarea2" style="height: 45vh;">
+						    <textarea class="form-control" id="textarea2" rows="100%" fixed style="resize:none; background-color: rgba(255,255,255,0.9); border: black; color:#222; font-family: 'Consolas';" disabled spellcheck="false"></textarea>
+						    <span class="mx-2 my-2" id="logIcon">log</span>
+						    <button type="button" class="mx-2 my-2" style="color:#222;" id="deleteButton2"><i class="fas fa-lg fa-trash txtshadow"></i></button>
+					    </div>
+					</form>
+				</div>
+			</div>
+		</div>
+
+
+		<script src="js/script.js"></script>
+
+ 		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    	<script src="js/bootstrap.min.js"></script>
+  	</body>
+</html>
